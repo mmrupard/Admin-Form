@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: black;
+  width: 100svw;
+  height: 100svh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  gap: 15px;
+}
+
+.header,
+.sidebar,
+.content {
+  background-color: grey;
+}
+
+.sidebar {
+  grid-row: 1 / 3;
+}
