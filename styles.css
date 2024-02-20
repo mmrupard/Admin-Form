@@ -111,7 +111,7 @@ li {
 
 .searchBar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
 }
@@ -217,7 +217,7 @@ li {
 }
 
 .content h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
@@ -226,6 +226,11 @@ li {
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: var(--shadow);
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: .5rem;
 }
 
 .cardText {
